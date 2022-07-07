@@ -1,0 +1,93 @@
+html {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(back.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c3c1c1;
+  opacity: .8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+ text-decoration: none; 
+  font-size: 25px;
+ font-family: 'Lato', sans-serif;
+  color: black;
+  opacity: 1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.openbtn:hover {
+  color: white;
+  opacity: .8;
+}
+
+.credits {
+  width: 500px;
+  length: 400px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+}
+
+.link {
+  color: white;
+}
