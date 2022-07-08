@@ -184,20 +184,6 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
 
-/*body {
-  font-family: 'Lato', sans-serif;
-  background: #e2dedb;
-  color: #b3aca7;
-}
-
-header {
-  position: relative;
-  margin: 100px 0 25px 0;
-  font-size: 2.3em;
-  text-align: center;
-  letter-spacing: 7px;
-}*/
-
 #form {
   position: relative;
   width: 500px;
@@ -311,6 +297,7 @@ ul li a span {
   position:absolute;
   top: 30px;
   color: #262626;
+   font-family: 'Lato', sans-serif;
   letter-spacing: 4px;
   transition: .5s;
 }
